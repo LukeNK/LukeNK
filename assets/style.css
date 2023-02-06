@@ -1,0 +1,49 @@
+:root {
+    --color-bg: #202a25ff;
+    --color-fg: #26f0f1ff;
+    --color-highlight: #5f4bb6ff;
+    --color-bright: #c4ebc8ff;
+    --vista-blue: #86a5d9ff;
+    --font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
+    --font-size: 19px;
+}
+
+html {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+}
+
+/* Page layout */
+nav {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    display: flex;
+    background-color: var(--color-highlight);
+}
+nav a {
+    flex-grow: 1;
+    text-align: center;
+    height: 3rem;
+    /* Weird way to vertical allign */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav a:hover {
+    background-color: var(--color-bright);
+    color: var(--color-bg);
+}
+
+/* Elements */
+a {
+    text-decoration: none;
+    color: inherit;
+}
