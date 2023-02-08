@@ -2,43 +2,67 @@
 <head>
     <title> Practice 1 </title>
     <style type="text/css">
-        div {
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #title {
+            position: absolute;
             width: 600px;
             padding: 20px;
             border: 5px solid black;
             margin: 0px;
             background-color: #F7F6B3;
+            width: 50vw;
+            left: 25vw;
+        }
+        .container {
+            display: flex;
+            margin: 0;
+        }
+        .container div {
+            border: 5px solid black;
+            padding: 1rem;
+            background-color: #F7F6B3;
+            width: 30vw;
+            flex-basis: 50vw;
+        }
+        .container img {
+            display: block;
+            max-width: 100px;
+            margin-left: 5vw;
         }
     </style>
 </head>
 <body background="https://cdn.discordapp.com/attachments/1064092743745409034/1066622556620210186/2023-01-21_23.05.18.png">
 <!-- Ricky Zhao -->
-    <font face="Verdana">
-    <div style="position:fixed;left:350px;">
-        <marquee style="font-size:40pt;"scrollamount="10" direction="right"behavior="alternate"><b>Minecraft world</b></marquee>
+    <div id="title">
+        <marquee style="font-size:40pt;" scrollamount="10" direction="right" behavior="alternate"><b>Minecraft world</b></marquee>
     </div>
-    <!-- <font face="Arial Black">
-    <div style="position:fixed;left:350px;top:150;width:300px;height:200px;">
-        <img src="king.jfif" width="170" height="250" style="position:fixed;top:150px;right:1100px;">
-        <head><font size="+3"> King </font><head>
-        <p> It is usually the highest rank, but it is the third strongest card in Big Two </p>
+    <br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <img src="https://cdn.discordapp.com/attachments/1064092743745409034/1066622556620210186/2023-01-21_23.05.18.png">
+        <div>
+            <h1>Senerean</h1>
+            <p>Senerean is a country in the North, renounced for its polite citizens</p>
+        </div>
+        <img src="https://cdn.discordapp.com/attachments/1064092743745409034/1066622556620210186/2023-01-21_23.05.18.png">
+        <div>
+            <h1>Flanfair</h1>
+            <p>Flanfair is a country established after Senerean, but being designated as the President of Union.</p>
+        </div>
     </div>
-
-    <div style="position:fixed;left:950px;top:150px;width:300px;height:200px;">
-        <img src="queen.png" width="170" height="250" style="position:fixed;tip:150px;right:500px;">
-        <head><fornt size="+3"> Queen </font><head>
-        <p> It is a rank lower than the king, but it is the fourth strongest card in Big Two </p>
-    </div>
-
-    <div style="position:fixed;left:350px;top450px;width300px;height:200px;">
-        <img src="jack.jpg" width="170" height="250" style=position:fixed;top:450;right:1100px;">
-        <head><font size="+3"> Jack </font></head>
-        <p> It is a rank lower than the queen, but it is fifth strongest card in Big Two </p>
-    </div>
-
-    <div style="position:fixed;top:450;right500px;">
-        <head><font size="+3"> Joker </font><head>
-        <p> A random card has apeared </p>
+    <br>
+    <div class="container">
+        <img src="https://cdn.discordapp.com/attachments/1064092743745409034/1066622556620210186/2023-01-21_23.05.18.png">
+        <div>
+            <h1>Olfagvest</h1>
+            <p>A nation that was built after Flanfair following the Great Migration</p>
+        </div>
+        <img src="https://cdn.discordapp.com/attachments/1064092743745409034/1066622556620210186/2023-01-21_23.05.18.png">
+        <div>
+            <h1>Haruku</h1>
+            <p>Being persuade by Senerean Prime Minister, Haruku also follows other countries</p>
+        </div>
     </div>
 </body>
-</html> -->
+</html>
