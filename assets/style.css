@@ -1,8 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 :root {
     --color-bg: #202a25ff;
     --color-fg: #26f0f1ff;
-    --color-highlight: #5f4bb6ff;
-    --color-bright: #c4ebc8ff;
+    --color-bright: #5f4bb6ff;
+    --color-highlight: #c4ebc8ff;
     --vista-blue: #86a5d9ff;
     --font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;
     --font-size: 19px;
@@ -25,7 +28,8 @@ nav {
     top: 0; left: 0;
     width: 100%;
     display: flex;
-    background-color: var(--color-highlight);
+    z-index: 9;
+    background-color: var(--color-bright);
 }
 nav a {
     flex-grow: 1;
@@ -38,7 +42,7 @@ nav a {
     flex-direction: column;
 }
 nav a:hover {
-    background-color: var(--color-bright);
+    background-color: var(--color-highlight);
     color: var(--color-bg);
 }
 
