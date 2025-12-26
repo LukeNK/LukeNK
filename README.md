@@ -2,7 +2,7 @@
 - I have passion for physics
 - I love making music
 - I know how to programming
-- I usually write stories to relax
+- I write stories to relax
 
 And I want to prove the world one thing: arts and science are not mutually exclusive. Please watch over me as I will become a proof for that proposition.
 
